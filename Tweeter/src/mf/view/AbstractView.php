@@ -117,22 +117,19 @@ abstract class AbstractView {
          * 
          */
                 
-        $html = (<<<EOT
+$html=<<<EOT
 <!DOCTYPE html>
 <html lang="fr">
     <head>
         <meta charset="utf-8">
         <title>${title}</title>
-	    ${styles}
+        ${styles}
     </head>
-
     <body>
-        
-       ${body}
-
+        ${body}
     </body>
 </html>
-EOT);
+EOT;
 
         /* Affichage de la page 
          *
